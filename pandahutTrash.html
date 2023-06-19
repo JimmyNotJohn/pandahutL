@@ -1,0 +1,98 @@
+<html>
+
+<head>
+
+    <link href="styles.css" rel="stylesheet" />
+
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" />
+
+
+</head>
+
+<body>
+
+    <audio loop src="ohohohohoh.mp3" type="audio/mp3">
+
+        <script>
+
+            // this code is bad but i use it because h
+
+            // it's kermit real c:
+
+            //                     .---.       .---.
+            //                    (-o - )-- - (-o - )
+            //                    ; -...-`   ` -...-;
+            //                    /                 \
+            //                   /                   \
+            //                  | /_               _\ |
+            //                  \`'.`'"--.....--"'`.'`/
+            //                   \  '.   `._.`   .'  /
+            //                _.- ''.  `-.,,_,,.-`.'' -._
+            //               `--._  `'-.,_____,.-'`  _.--`
+            //                    /                 \
+            //                   /.-'`\   .'.   /`'-.\
+            //                  `      '.'   '.'
+
+            // button and Id
+            var button = document.createElement('button')
+            button.id = 'sndBtn'
+            button.innerHTML = '<i class="fa fa-volume-off"></i>'
+            button.className = "sndBtn"
+
+            // audio
+            const audio = document.querySelector("audio")
+
+            // "sndBtn" plays and pauses Audio
+            button.addEventListener('click', () => {
+                if (audio.paused / audio.ended) {
+                    audio.play()
+                    button.innerHTML = '<i class="fa fa-volume-up"></i>'
+                    audio.volume = 0.35
+                } else {
+                    audio.pause()
+                    button.innerHTML = '<i class="fa fa-volume-off"></i>'
+                }
+            })
+            // if audio ends without button pressed, replace button's icon
+            audio.addEventListener('ended', () => {
+                if (audio.ended) {
+                    button.innerHTML = '<i class="fa fa-volume-off"></i>'
+                }
+            })
+
+                , document.body.appendChild(button)
+        </script>
+
+    </audio>
+
+    <p class="soup"></p>
+
+    <h1>Why Pandahut is bad</h1>
+
+    <p class="movethep"></p>
+
+    <div class="ballsreal">
+
+        <p>When the goblins come pandahut won't even go fr.</p>
+
+        <p>Pandahut doesn't even know the method on how to go everywhere.</p>
+
+        <p>Dan shouldn't have gotten demoted</p>
+
+        <p>Life RP like so much better like real</p>
+
+        <p>Pandahut doesn't even have h </p>
+
+        <a href="noBalls.bat" download>
+            <img src="thumbsup.jpg" alt="noballs" width="200" height="200">
+        </a>
+
+    </div>
+
+    <img src="Lbozo.png" class="i1" />
+
+    <img src="Lbozo.png" class="i2" />
+
+</body>
+
+</html>

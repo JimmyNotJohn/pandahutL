@@ -1,0 +1,66 @@
+.sndBtn {
+    width: 50px;
+    height: 50px;
+    background-color: black;
+    opacity: 0.65;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+    color: white;
+    font-size: 34px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    box-shadow: 2px 2px 2px gray;
+    margin:3px;
+}
+
+button.sndBtn:hover {
+    animation: fade .4s normal linear;
+    opacity: 0.8;
+}
+body {
+    background-image:url('backgroundImage.png');
+    background-repeat: repeat-x;
+}
+h1 {
+    margin:auto;
+    display:block;
+    font-size:100px;
+    font-family:Cambria;
+    border-top:9px double black;
+    border-bottom:9px double black;
+    width:92%;
+    padding:10px;
+    text-align:center;
+}
+.soup {
+    height:10px;
+}
+.i1 {
+    width: 15%;
+    height: 50%;
+    left: 0px;
+    top:300px;
+    position: absolute;
+}
+.i2 {
+    width: 15%;
+    height: 50%;
+    right: 0px;
+    position: absolute;
+    top: 300px;
+}
+
+.ballsreal {
+    font-size: 44px;
+    font-family: Arial;
+    margin: auto;
+    display: block;
+    width:80%;
+    text-align:center;
+}
+.movethep {
+    height:8px;
+}
+
